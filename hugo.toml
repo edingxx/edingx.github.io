@@ -1,0 +1,29 @@
+baseURL = 'https://edingxx.github.io/'
+languageCode = 'zh-cn'
+title = 'dingx的技术空间'
+theme = "PaperMod"
+
+[params]
+    env = "production"
+    defaultTheme = "auto" # 自动切换深浅模式
+    showFullTextContent = false
+    displayFullPostContent = false
+
+    [params.profileMode]
+        enabled = true
+        title = "👋 欢迎来到我的主页"
+        subtitle = "Enterprise Architect | Open Source Enthusiast | Gopher"
+        imageUrl = "https://github.com/edingxx.png" # 自动调用GitHub头像
+        imageWidth = 120
+        imageHeight = 120
+        
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/edingxx"
+    [[params.socialIcons]]
+        name = "twitter"
+        url = "https://x.com/seandingx"
+
+    # 开启搜索功能
+    [outputs]
+        home = ["HTML", "RSS", "JSON"]
